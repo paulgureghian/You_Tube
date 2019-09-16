@@ -16,3 +16,11 @@
 #channel_info {
     display:inline;
 }
+
+.preview_1 {
+    display: block;
+}
+
+.preview_1 li {
+    display: inline;
+}
