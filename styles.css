@@ -1,3 +1,8 @@
+body {
+  background-color: #EEEEEE;
+
+}
+
 .like {
     height: 25px;
     width: 25px;
@@ -43,4 +48,35 @@
 .nc2 {
   font-size: 12px;
   color: gray;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 4 auto;
+  grid-template-rows: 20 auto;
+  padding: 10px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: black;
+}
+
+.item2 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+
+nav {
+  vertical-align: middle;
+}
+
+#video {
+  margin:auto;
+  padding:70px;
 }
