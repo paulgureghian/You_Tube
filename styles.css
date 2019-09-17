@@ -17,33 +17,30 @@
     display:inline;
 }
 
-#sidebar {
-    width: 800px;
-    background: blue;
-    padding-top: 10px;
+.up-next {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0px 40px;
 }
 
- 
-.sb_preview {
-    display: block;
+.next-card {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 8px;
 }
 
-
-ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin-top: 8px;
+.next-card-details p {
+  margin: 0px;
+  margin-left: 8px;
+  overflow: hidden;
+  width: 250px;
 }
-
-#sidebar {
-    display: flex;
-    flex-flow: column nowrap;
-    padding: 0px 40px;
+.nc1 {
+  font-size: 12px;
+  color: gray;
+  padding-top: 15px;
 }
-
-.sb_element {
-    display: flex;
-    flex-flow: row nowrap;
-    margin-top: 8px;
+.nc2 {
+  font-size: 12px;
+  color: gray;
 }
