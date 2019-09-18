@@ -1,21 +1,38 @@
 body {
   background-color: #EEEEEE;
+  margin: 0;
+  width:100%
 
 }
 
 .like {
-    height: 25px;
-    width: 25px;
+    height: 18px;
+    width: 20px;
     margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display:inline-block;
+    position: relative;
 }
 
 .share {
-    height: 25px;
-    width: 25px;
+    height: 15px;
+    width: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display:inline-block;
+}
+
+#social {
+  position: relative;
+  left:200px;
+  display: inline-block;
 }
 
 #video_info {
     border-bottom: 1px gray solid;
+    padding:30px;
+    border-top:10px #EEEEEE
 }
 
 #channel_info {
@@ -25,7 +42,7 @@ body {
 .up-next {
   display: flex;
   flex-flow: column nowrap;
-  padding: 0px 40px;
+  padding-left: 40px; 
 }
 
 .next-card {
@@ -54,7 +71,6 @@ body {
   display: grid;
   grid-template-columns: 4 auto;
   grid-template-rows: 20 auto;
-  padding: 10px;
 }
 
 .item1 {
@@ -62,7 +78,10 @@ body {
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 2;
-  background-color: black;
+  background-color:rgb(25,25,25);
+  padding: 10px;
+  vertical-align: middle;
+
 }
 
 .item2 {
@@ -70,12 +89,18 @@ body {
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 5;
+  background-color: white;
+  margin:35px 10px;
+
+
 }
 
 .item3 {
   grid-column-start: 4;
-  grid-column-end: 5;
   grid-row-start: 2;
+  grid-row-end:10;
+  background-color: white;
+  margin-top:35px;
 
 }
 
@@ -83,14 +108,112 @@ body {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 5;
-
+  margin:35px 10px;
+  padding:20px;
 }
 
 nav {
-  vertical-align: middle;
+  text-align: center;
+  height: 60px;
 }
 
 #video {
+  padding:20px;
   margin:auto;
-  padding:70px;
 }
+
+#searchbutton {
+  background-color: black;
+  border: none;
+  padding: 0;
+  margin: auto;
+  display: inline-block;
+  position: absolute;
+  top: 28px;
+  height: 30px;
+}
+
+#searchbox {
+  height: 35px;
+  width: 600px;
+  margin: auto;
+  background-color: black;
+  border:1px rgba(47, 79, 79, 0.596);
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 200px;
+  position: relative;
+  top:15px;
+}
+
+.icons {
+  display: inline-block;
+  padding-left: 150px;
+  justify-content: space-around;
+}
+
+.icons > img {
+  padding-left: 20px;
+  margin:auto;
+  vertical-align: middle;
+  position: relative;
+  top:10px;
+  
+}
+
+#logo {
+  vertical-align: middle;
+  position: relative;
+  top:10px;
+  left:40px;
+
+}
+
+h1 {
+  font-weight:normal;
+  font-family: 'YouTube Noto', Roboto, arial, sans-serif;
+  width:75%;
+  font-size: 22px;
+  line-height:normal;
+  word-wrap:break-word;
+  border-width: 0px; 
+  border-style: none; 
+  margin: 0px;
+  padding: 0px; 
+  border-color: white; 
+}
+
+#views {
+  font-family: 'YouTube Noto', Roboto, arial, sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  color:gray;
+  margin: 0px;
+  padding-top: 15px; 
+  display:inline-block;
+}
+
+@font-face {
+  font-family:Roboto;
+  font-style:italic;
+  font-weight:500;
+  src: url('http://archive.fo/Bss88/0ae24c3f861dfb8b5e6d34d180de4dae49e3d2e4.ttf') format('truetype');
+  }
+  @font-face {
+  font-family:Roboto;
+  font-style:italic;
+  font-weight:400;
+  src: url('http://archive.fo/Bss88/714188ede1667c787c99fd5b260d81bcf0ef11bd.ttf') format('truetype');
+  }
+  @font-face {
+  font-family:Roboto;
+  font-style:normal;
+  font-weight:500;
+  src: url('http://archive.fo/Bss88/49e0f3d32666ac36205f84ac7457030ca0a9d95f.ttf') format('truetype');
+  }
+  @font-face {
+  font-family:Roboto;
+  font-style:normal;
+  font-weight:400;
+  src: url('http://archive.fo/Bss88/754d9eaa4a009c42e8d6d40c632a1dad6d44ec21.ttf') format('truetype');
+  }
