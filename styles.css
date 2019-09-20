@@ -16,22 +16,18 @@ body {
   display: inline-block;
   height: 15px;
   width: 20px;
-
 }
 
 .social {
-
   display: inline-block;
   left: 200px;
   position: relative;
-
 }
 
 .video_info {
   border-bottom: 1px gray solid;
   border-top: 10px #EEEEEE;
   padding: 30px;
-
 }
 
 .channel_info {
@@ -44,7 +40,6 @@ body {
 }
 
 .avatar {
-
   grid-column-end: 2;
   grid-column-start: 1;
   grid-row-end: 3;
@@ -53,10 +48,8 @@ body {
 }
 
 .chinfo {
-
   grid-column-start: 2;
   grid-row-end: 3;
-
   grid-row-start: 1;
   left: -140px;
   margin-left: 0;
@@ -64,15 +57,13 @@ body {
   position: relative;
   resize: inherit;
   top: -10px;
-
 }
 
 .sub {
-grid-column-end: 4;
+  grid-column-end: 4;
   grid-column-start: 3;
   grid-row-end: 2;
   grid-row-start: 1;
-
   position: relative;
   top: 20px;
 }
@@ -99,15 +90,12 @@ grid-column-end: 4;
 .nc1 {
   color: gray;
   font-size: 12px;
-
   padding-top: 15px;
 }
 
 .nc2 {
   color: gray;
   font-size: 12px;
-
-
 }
 
 .grid-container {
@@ -117,9 +105,7 @@ grid-column-end: 4;
 }
 
 .item1 {
-
   background-color: white;
-
   grid-column-end: 5;
   grid-column-start: 1;
   grid-row-end: 2;
@@ -164,18 +150,17 @@ nav {
 }
 
 .video {
-
   padding: 20px;
 }
 
 .searchbutton {
   background-color: #f8f8f8;
-  padding: 0;
-  margin: auto;
+  border: solid lightgray 1px;
   display: inline-block;
+  margin: auto;
+  padding: 0;
   position: absolute;
   top: 25px;
-  border: solid lightgray 1px;
 }
 
 .srchbx {
@@ -184,91 +169,53 @@ nav {
 
 .searchbox {
   background-color: white;
-  height: 35px;
-  width: 600px;
-  margin: auto;
   display: inline-block;
-  vertical-align: middle;
-  margin-left: 200px;
+  height: 35px;
+  margin: auto auto auto 200px;
   position: relative;
   top: 15px;
+  vertical-align: middle;
+  width: 600px;
 }
 
 .icons {
   display: inline-block;
-  padding-left: 150px;
   justify-content: space-around;
+  padding-left: 150px;
 }
 
 .icons>img {
-  padding-left: 20px;
   margin: auto;
-  vertical-align: middle;
+  padding-left: 20px;
   position: relative;
   top: 10px;
+  vertical-align: middle;
 }
 
 #logo {
-  vertical-align: middle;
+  left: 40px;
   position: relative;
   top: 10px;
-  left: 40px;
+  vertical-align: middle;
 }
 
 h1 {
-  font-weight: normal;
-  font-family: 'YouTube Noto', Roboto, arial, sans-serif;
-  width: 75%;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
-  line-height: normal;
-  word-wrap: break-word;
-  border-width: 0px;
-  border-style: none;
-  margin: 0px;
-  padding: 0px;
-  border-color: white;
+  font-weight: normal;
 }
 
-#views {
-  font-family: 'YouTube Noto', Roboto, arial, sans-serif;
-  font-weight: lighter;
-  font-size: 14px;
+.views {
   color: gray;
-  margin: 0px;
-  padding-top: 15px;
   display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 15px;
 }
 
-#subscriber_count {
+.subscriber_count {
   color: gray;
-  size: 12px;
   padding: 0;
-}
-
-@font-face {
-  font-family: Roboto;
-  font-style: italic;
-  font-weight: 500;
-  src: url('http://archive.fo/Bss88/0ae24c3f861dfb8b5e6d34d180de4dae49e3d2e4.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: Roboto;
-  font-style: italic;
-  font-weight: 400;
-  src: url('http://archive.fo/Bss88/714188ede1667c787c99fd5b260d81bcf0ef11bd.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  src: url('http://archive.fo/Bss88/49e0f3d32666ac36205f84ac7457030ca0a9d95f.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  src: url('http://archive.fo/Bss88/754d9eaa4a009c42e8d6d40c632a1dad6d44ec21.ttf') format('truetype');
+  size: 12px;
 }
