@@ -32,8 +32,13 @@ body {
 
 .channel_info {
   display: grid;
+<<<<<<< HEAD
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
+=======
+  grid-template-columns: 3px auto;
+  grid-template-rows: 2px auto;
+>>>>>>> 1732696fc4986649bd19551ac7a12837d8da38f3
   left: 30px;
   position: relative;
   top: 10px;
@@ -164,7 +169,7 @@ nav {
 }
 
 .srchbx {
-  height:42px;
+  height: 42px;
 }
 
 .searchbox {
@@ -217,5 +222,9 @@ h1 {
 .subscriber_count {
   color: gray;
   padding: 0;
+<<<<<<< HEAD
   font-size: 12px;
+=======
+  resize: 12px;
+>>>>>>> 1732696fc4986649bd19551ac7a12837d8da38f3
 }
